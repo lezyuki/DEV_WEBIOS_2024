@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Form</title>
+  </head>
+   <body>
+     <!--FORMULARIOS-->
+     <h2>Pacotes de viagem</h2>
+     <form action="./inscricao.html">
+        <fieldset>
+            <legend >
+                Informações sobre o usuario
+            </legend>
+        
+
+        <label>Nome:</label> 
+          <input type="text"> <br>
+        <label>Idade:</label> 
+          <input type="number"> <br>
+        <label>E-mail:</label>
+          <input type="text"> <br>
+        <label>Telefone:</label>
+          <input type="number"> <br>
+
+        <input type="radio" name="ida">
+        <label for="">Somente ida</label> <br>
+        <input type="radio" name="ida">
+        <label for="">Ida e volta</label>
+
+        <h3>Quais serviços deseja contratar</h3>
+        
+        <input type="checkbox"
+        <label for="">Compra de passagem</label> <br>
+        <input type="checkbox">
+        <label for="">Reserva de hospedagem</label> <br>
+        <input type="checkbox">
+        <label for="">Reserva de veiculos</label>
+    </fieldset>
+
+        <h3>Quantidade de crianças</h3>
+        1
+        <input type="range">
+        10
+    
+
+         <h3>Aeroportos</h3>
+
+        <select>
+            <option value=""></option>
+            <option value="">Guarulhos</option>
+            <option value="">Congonhas</option>
+            <option value="">Santos Dumont</option>
+            <option value="">Viracopos</option>
+            <option value="">Campo de Marte</option>
+        </select>
+                     <br> 
+                     <h3>Estados</h3>
+
+          <input type="text" list="Estados">
+          
+        <datalist id="Estados">
+            <option value=""></option>
+            <option value="São Paulo"></option>
+            <option value="Amapá"></option>
+            <option value="Tocantins"></option>
+            <option value="Sergipe"></option>
+            <option value="Rio de Janeiro"></option>
+            <option value="Rio Grande do sul"></option>
+            <option value="Rio Grande do norte"></option>
+            <option value="Bahia"></option>
+            <option value="Paraíba"></option>
+            <option value="Roraima"></option>
+            <option value="Amazonas"></option>
+        </datalist> <br> 
+
+        <h3>Observações</h3>
+        
+        <textarea name="Deixe suas observações" id="" cols="100" rows="10"></textarea> <br>
+
+        <input type="submit" value="inscricao">
+
+       
+      
+     </form>
+   </body>
+</html>
