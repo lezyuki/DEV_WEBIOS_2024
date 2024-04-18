@@ -1,0 +1,13 @@
+img {
+    width: 700px;
+}
+/* enquanto a largura da tela for de 450px as imagens tetão uma largura de 200px */
+
+/* enquanto a largura minima for de 450px a largura das imagens serão de 200px */
+/* min-width / max-width */
+
+@media (max-width: 450px) {
+    img {
+        width: 200px;
+    }
+}
