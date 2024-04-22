@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/jpg" href="../img/icone-site.png">      <!--FAVICON, ICONE DO SITE-->
+</head>
+<body>
+    <header>
+        <h1>FEEDBACK</h1>
+        <a href="pag-principal.html"><u>JOALHERIA</u></a>
+    </header>
+
+    <main>
+        <section class="pedidos">
+             <h2>PEDIDOS</h2>
+        
+             <form name="pedidos" method="post" id="pedidos1" action=""><form>
+                 <p>Bracelete</p>
+                <label for="Braceletes">Quantidade</label>
+                 <input type="number" id="Quantidade" name="Quantidade" required>
+              
+
+              
+                 <p>Brincos</p>
+                <label for="Brincos Vibrantes">Quantidade</label>  
+                 <input type="number" id="Quantidade" name="Quantidade" required>
+           
+                 <p>Colar</p>
+               <label class="Colar" for="Colar">Quantidade</label>
+                <input type="number" id="Quantidade" name="Quantidade" required> <br>
+                 <button type="submit">Enviar Pedido</button>
+              
+        </section>
+
+
+        <section class="feedback">
+            <h2>FORMULÁRIO DE FEEDBACK</h2>
+
+        <form name="feedback" method="post" id="feedback" action=""><form></form>
+         <label for="nome_feedback">Nome:</label>
+          <input type="text" id="nome_feedback" name="nome_feedback" required>
+
+         <label for="email_feedback">Email:</label>
+          <input type="email" id="email_feedback" name="email_feedback" required>
+
+         <label for="feedback">Feedback:</label>
+          <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+         <button type="submit">Enviar Feedback</button> 
+        </section>
+    </main>
+</body>
+</html>
