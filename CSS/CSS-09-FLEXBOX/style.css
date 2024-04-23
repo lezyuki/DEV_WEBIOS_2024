@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+#container {
+    border: solid 1px black;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 20vh;
+    align-items: baseline;
+    /* aplicar stretch sem height no item height definido */
+}
+
+.item {
+ background-color: rgb(165, 102, 224);
+ border: solid black 1px;
+ width: 60px;
+ height: 50px;
+}
+
+.item1 {
+    order: 1;
+    background-color: rgb(165, 102, 224);
+    border: solid black 1px;
+    width: 60px;
+    height: 50px;
+}
+
+.item2 {
+    order: 1;
+    background-color: rgb(165, 102, 224);
+    border: solid black 1px;
+    width: 60px;
+    height: 50px;
+}
