@@ -1,0 +1,47 @@
+/* Seletor pai > o que for aplicado dentro dele será aplicado na pagina web interira inclusive na tag body */
+*{
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box; 
+        text-align: center;
+        background-color: aqua;
+  }
+
+/* .corAzul{
+    color: blue;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 10px 10px 10px;
+    text-align: center;
+}
+.corVerde{
+    color: green;
+}
+.corVermelho{
+    color: red;
+}
+.corRoxo{
+    color: purple;
+}
+.corCinza{
+    color: rgb(98, 97, 96);
+} */
+.MudandoCSS{
+
+    text-align: center;
+    color: rgb(172, 3, 250);
+}
+
+#mudancaUnica{
+
+    text-align: center;
+    color: rgb(255, 0, 0);
+    text-shadow: 1px 1px 1px;
+}
+#outroNome{
+    color: blue;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 10px 10px 10px;
+    text-align: center;
+}

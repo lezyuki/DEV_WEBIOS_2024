@@ -1,0 +1,15 @@
+img{
+    float: left;
+    width: 400px;
+    clear: right;
+}
+
+#paragrafo{
+    width: 100px;
+    /* float: left; */
+    clear: left;
+}
+#paragrafo2{
+    width: 100px;
+    float: right;
+}

@@ -1,0 +1,29 @@
+body{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+
+#secao{
+    border: 1px solid rgb(0, 0, 0);
+    /* padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px; */
+    padding: 10px 50px 10px 50px;
+           /*top-right-bottom-left*/
+    margin-bottom: 20px;
+    /* margin: 1px 50px 20px 50px; */
+}
+#secao2{
+    border: 1px solid rgb(255, 0, 0);
+    padding: 10px 50px 10px 50px;
+    margin-bottom: 20px;    
+    /* margin: 1px 50px 20px 50px; */
+}
+#secao3{
+    border: 1px solid purple;
+    padding: 10px 50px 10px 50px;
+    /* margin: 0px 50px 20px 50px; */
+}

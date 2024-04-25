@@ -18,3 +18,16 @@ img{
         box-shadow: 10px 10px 10px black;
     }
 }
+@media(min-width: 452px){
+    body{
+        background-color: rgb(103, 103, 103);
+    }
+    img{
+        width: 1000px;
+    }
+    img:hover{
+        border: 1px solid rgb(211, 210, 210);
+        border-radius: 3px;
+        box-shadow: 5px 5px 5px;
+    }
+}
