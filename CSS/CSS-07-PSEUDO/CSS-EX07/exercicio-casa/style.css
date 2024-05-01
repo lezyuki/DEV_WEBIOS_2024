@@ -1,75 +1,127 @@
-.titulo {
-    color: white;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif
+#container {
+    padding: 2em;
+    background-image: url('img/background2.jpg');
+    position: fixed;
+}
+
+header {
+    background-image: url('img/aot-fury-titan-desktop-wallpaper-preview.jpg');
+    padding: 20px;
+    
 }
 
 body {
-    background-color: #533618;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    padding: auto;
     width: 80%;
-}
-
-.container {
-    padding: 2em; 
-    display: flex;
-    justify-content: center; 
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-}
-
-.bloco1 {
     background-color: #c1c2bc;
-    padding: 15px;
+}
+
+h1 {
+    text-shadow: 1px 1px 4px;
+    color: #314a20;
+    display: flex;
+    justify-content: center;
+}
+
+.t1 {
+    color: #da791f;
+    text-shadow: 1px 1px 3px;
+}
+
+.s1 {
+    color: #c1c2bc;
+    background-color: #314a20;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 30px;
 }
 
 .img1 {
     width: 300px;
     height: 200px;
-    margin-right: 30px;
+    margin-right: 20px;
+    padding: 15px;   
+    opacity: 0.8;
 }
 
 .img1:hover {
-    outline: 2px solid #c0762c;
-    border-radius: 8%;
+    opacity: 1;
+    
 }
 
-.resumo {
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #725436;
+    border: solid 1px black;
+    border-radius: 10px;
     float: right;
-    width: 500px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 70px;
 }
 
-.b1 {
-    border-radius: 20px;
-    background-color: #c0762c;
-    float: right;
-    clear: both;
-    margin-top: 10px;
+button:hover {
+    background-color: #5c4631;
+    font-weight: bold;
 }
 
-.b1:hover {
-    background-color: #533618;
-   }
+/*--------------------------------------------------------------*/
 
-   .bloco2 {
-    background-color: #c1c2bc;
-    padding: 20px;
-    margin-top: 50px;
-    flex-direction: row;
-   }
+.s2 { 
+ background-color: #314a20;
+ display: flex;
+ padding: 20px;
+ margin-bottom: 30px;
+ 
+}
 
-   .df {
-    color: #533618;
-    font-weight: bold;
-    font-size: 20px;
-   }
+.video {
+    float: left;
+}
 
-   .info {
+.t2 {
+    color: #725436;
     margin-left: 20px;
-    float: right;
-   }
+}
+
+.p2 {
+    margin-left: 20px;
+    color: #c1c2bc;
+}
+
+strong {
+    color: #da791f;
+    text-shadow: 1px 1px 4px;
+}
+
+.s3 {
+ background-color: #314a20;
+ display: flex;
+}
+
+img {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    height: 200px;
+}
+
+footer {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #da791f;
+    text-shadow: 1px 1px 4px;
+    opacity: 0.5;
+}
+
+footer:hover {
+    opacity: 1.0;
+}
+
+p {
+    color: #c1c2bc ;
+}
