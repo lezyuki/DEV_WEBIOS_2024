@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(243, 241, 241);
+}
+
+p {
+    color: rgb(134, 122, 122);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+span {
+    color: rgb(134, 37, 179);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    
+}
+
+a {
+    color: rgb(134, 37, 179);
+    text-decoration: none;
+    display: flex;
+    
+}
+
+h1 {
+    text-align: center;
+    color: rgb(134, 37, 179);
+    text-shadow: 1px 1px 2px;
+    
+}
+
+h1:hover {
+    font-weight: bold;
+    color: rgb(107, 12, 196);
+
+}
+
+a:hover {
+   color: blueviolet; 
+   font-weight: bold;
+}
+
+.c {
+    border: solid 1px rgb(134, 122, 122) ;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(224, 223, 221);
+    border-radius: 10%;
+}
+
+.d {
+    border: solid 1px rgb(134, 122, 122);
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(224, 223, 221);
+    border-radius: 10%;
+}
+
+.e {
+    border: solid 1px rgb(134, 122, 122);
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(224, 223, 221);
+    border-radius: 10%;
+}
+
+footer {
+    text-align: center;
+    color: rgb(107, 12, 196);
+    font-size: 14px;
+}
+
+
+
+
