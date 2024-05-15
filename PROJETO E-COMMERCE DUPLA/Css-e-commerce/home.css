@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62,5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background: #f8fafc;
+}
+
+.sitejoias {
+    display: grid;
+    grid-template-rows: max-content 1fr max-content;
+    height: 100vh;
+}
+
+.container {
+    padding: 1.6rem 3.2rem;
+    width: min(112rem, 100%);
+    margin: 0 auto;
+}
+
+
+header {
+    background: #FFFFFF
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 1.0rem;
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+p {
+    color: #64748b;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    padding: .3rem;
+    font-size: 1.3rem;
+}
+
+nav,
+ul,
+li {
+    color: #94a3b8;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 1.2rem;
+    gap: 7.2rem;
+}
+
+ul, li:hover {
+ font-weight: 600;
+ color: #64748b;
+}
+
+li, span {
+    color: #475569;
+}
+
+a {
+    text-decoration: none;
+    color: #64748b;
+}
+
+.logo {
+    background: #f8fafc;
+    display: flex;
+    justify-content: center;
+    filter: blur();
+}
+
+
+.input label {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.input input {
+    width: 100%;
+
+    background-color: #f8fafc;
+    font-weight: 400;
+    padding: 1.0rem;
+    border: 0;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+}
+
+
+.input input::placeholder {
+    opacity: 0.56;
+    color: #334155;
+}
+
+
+main h1 {
+    padding-top: 1.6rem;
+}
+
+
+.gallery {
+    margin-top: 3.2rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.item img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    
+
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-delay: 0;
+    transition-timing-function: ease-out;
+
+    display: inline-block;
+}
+
+.item img:hover {
+    filter: hue-rotate(7deg) contrast(101%) saturate(110%);
+    transform: scale(1.1) rotate(-2deg);
+
+}
+
+.item {
+    background-color: #FFFFFF;
+    border-radius: .8rem;
+    overflow: hidden;
+}
+
+.details {
+    padding: .8rem;
+    background-color: #e7edf5;
+    z-index: 1;
+    position: relative;
+
+}
+
+.details h2 {
+    font-size: 1.2rem;
+}
+
+.tags {
+    margin-top: 1.2rem;
+}
+
+.tags span {
+    background-color: #e2e8f0;
+    border-radius: 0.8rem;
+    padding: .6rem;
+    line-height: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+
+footer {
+    color: #1c1c1d;
+    font-size: 1.0rem;
+    background: #FFFFFF;
+    text-align: center;
+    padding: 1.6rem;
+    font-weight: 700;
+}
+
+
