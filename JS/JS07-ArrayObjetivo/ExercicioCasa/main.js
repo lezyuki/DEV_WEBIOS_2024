@@ -39,7 +39,7 @@ let alunos = [
    
 console.log(alunos)
 console.log(alunos[1])
-console.log(alunos[5].nota)
+console.log(' nota de maria é: ' + alunos[5].nota)
 
 console.log(JSON.stringify(alunos))
 
