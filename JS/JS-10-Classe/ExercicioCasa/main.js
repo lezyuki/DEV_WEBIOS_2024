@@ -38,8 +38,8 @@ class contaBancaria{
 }
 
 let clientePoupanca = new contaBancaria("João", 50, 8000, "Masculino", 1222, "Poupança", 517843258)
-let clienteCorrente = new contaBancaria("Cleber", 25, 5500, "Masculino", 5678, "Corrente", 912355645)
-let clienteEstudante = new contaBancaria("Julia", 18, 1400, "Feminino", 9012, "Estudante", 532758121)
+let clienteCorrente = new contaBancaria("Cleber", 25, 5500, "Masculino", 8978, "Corrente", 912355645)
+let clienteEstudante = new contaBancaria("Julia", 18, 1400, "Feminino", 7623, "Estudante", 532758121)
 
 console.log("Conta Poupança:", clientePoupanca.contaPoupanca());
 console.log("Conta Corrente:", clienteCorrente.contaCorrente());
