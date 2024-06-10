@@ -1,16 +1,24 @@
+function adicionarImagem() {
+    const imagem = document.createElement('img')
+    imagem.src = '/JS/JS-12-DOM2/exercicioCasa/UmbrellaAcademy.jpeg';
+    imagem.alt = 'Umbrella Academy'
+    document.getElementById('containerImagem').appendChild(imagem)
+    document.body.style.backgroundColor = '#262525';
+}
+
 function exibirMensagem() {
-    const nome = prompt("Por favor, digite seu nome:");
-    if (nome) { // se o usuario digitou faça tal coisa
-        const mensagemBoasVindas = document.getElementById("mensagemBoasVindas"); // obtém a div com o id mensagemBoasVindas do html
-        mensagemBoasVindas.textContent = `Olá ${nome}, Olá seja bem-vindo!`;  // cria uma mensagem personalizada com o nome digitado no prompt
+    const nome = prompt("Por favor, digite seu nome:")
+    if (nome) { 
+        const mensagemBoasVindas = document.getElementById("mensagemBoasVindas")
+        mensagemBoasVindas.textContent = `Olá ${nome}, bem-vindo à nossa academia!`
     }
 }
 
 function calcularTabuada() {
-    const numero = parseInt(prompt("Digite um número para ver a tabuada")); // parseInt converte o valor digitado (que é uma string) em um número inteiro
-    if (!isNaN(numero)) { // verifica se o valor digitado não é um número
+    const numero = parseInt(prompt("Digite um número para ver a tabuada"))
+    if (!isNaN(numero)) { 
         let tabuada = "";
-        for (let i = 1; i <= 10; i++) { // serve para contar do 1 até o 10, por ex na tabuada do 5, 5x1, 5x2, 5x3.... quando chegar no 5x10 encerra.
+        for (let i = 1; i <= 10; i++) { 
             tabuada += `${numero} x ${i} = ${numero * i}<br>`;
         }
 
