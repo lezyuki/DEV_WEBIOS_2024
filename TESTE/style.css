@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a, ul, li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 11rem;
+    position: fixed;
+    box-shadow: 0px 4px 4px  #40B121;
+    background: linear-gradient(90deg, #fff 41.5%, #109f70 41.51%, #009929 78%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+header ul {
+    display: flex;
+    gap: 7rem;
+}
+
+.nomeGreenwaves {
+    position: absolute;
+    right: 70%;
+    font-size: 4rem;
+    margin-left: 5rem;
+    color: #40B121;
+    text-shadow: 2px 0px 4px;
+}
+
+.logoGreenwaves {
+    position: absolute;
+    right: 83%;
+    width: 11rem;
+    height: 11rem;
+}
+
+ 
+nav {
+    position: absolute;
+    left: 50%;
+}
+
+.aNav, .navBar {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    font-size: 2rem;
+    color: white;
+    padding: .5rem 1rem;
+}
+
+
+.nav ul li a {
+    position: relative;
+}
+
+.nav ul li a:hover {
+    color: #40B121;
+}
+
+.nav ul li a::after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 0.6rem;
+    content: '.';
+    color: transparent;
+    background: #ffffff;
+    visibility: none;
+    opacity: 0;
+    z-index: -1;
+}
+
+.nav ul li a:hover::after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+.nav ul li a:after, .nav ul li a:before {
+    transition: all .5s;
+}
+
+/* MAIN */ 
+
+/* SECTION 1 */
+
+.section1 {
+    width: 100%;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.text-section1 {
+    position: relative;
+    left: 10rem;
+    bottom: 25rem;
+    display: inline-block;
+    width: 163.47rem;
+}
+
+.imgSection1 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 43rem;
+    object-fit: cover;
+}
+
+.section1-btn {
+    width: 30rem;
+    position: relative;
+    left: 121rem;
+    bottom: 24rem;
+    font-size: 15px;
+    font-family: Inter;
+    color: #fff;
+    text-align: left;
+    height: 23px;
+}
+
+.section-btn {
+    position: relative;
+    padding: 1rem 1rem;
+    width: 30rem;
+    border: 0;
+    border-radius: 0.8rem;
+    background: #40B121;
+    color: white;
+    font-weight: bold;
+}
+
+.linkBtn {
+    color: white;
+    padding: 1rem 5.77rem;
+   
+}
+
+.section-btn:hover {
+    background: #006400;
+    color: #fff;
+    transition: 0.2s;
+}
+
+
+/* SECTION 2 */
+
+.section2 {
+height: 100vh;
+position: relative;
+top: 10rem;
+}
+
+.title1{
+    display: grid;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: #40B121;
+    bottom: 3rem;
+}
+
+.title, p {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    position: relative;
+    color: #000;
+    bottom: 2.4rem;
+}
+
+.caixas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    width: 100%;
+    position: relative;
+    top: 8rem;
+    opacity: 50%;
+    width: 54rem;
+    height: 40rem;
+    box-shadow: 0px 4px 4px #00757E;
+    border: 1px solid black;
+    border-radius: 3rem;
+}
+
+.box1:hover {
+    background: #40B121;
+    opacity: 30%;
+    transition: 0.4s;
+}
+
+.img-box1 {
+    position: relative;
+    left: 23.5rem;
+    bottom: 28rem;
+}
+
+.title-box1 {
+    position: relative;
+    left: 5rem;
+    bottom: 27rem;
+    font-size: 2.3rem;
+}
+
+.p-box1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    bottom: 25rem;
+    font-size: 2.1rem;
+}
+
+.title-box2 {
+    position: relative;
+    left: 8rem;
+    bottom: 27rem;
+    font-size: 2.3rem;
+}
+
+.title-box3 {
+    position: relative;
+    left: 3.4rem;
+    bottom: 27rem;
+    font-size: 2.3rem;
+}
+
+/* SECTION 3 */
+
+.section3-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.gallery-img1 {
+    width: 30rem;
+    height: 25rem;
+    position: relative;
+    border-radius: 50px;
+    bottom: 30rem;
+    right: 33rem;
+    object-fit: cover;
+    box-shadow: 0px 4px 4px #00757E;
+}
+
+.gallery-img2 {
+    width: 65rem;
+    height: 23rem;  
+    position: relative;
+    bottom: 60rem;
+    left: 27rem;
+    border-radius: 50px;
+    object-fit: cover;
+    box-shadow: 0px 4px 4px #00757E;
+}
+
+.gallery-img3 {
+    width: 30rem;
+    position: relative;
+    bottom: 30rem;
+    right: 38rem;
+    border-radius: 50px;
+    height: 25rem;
+    object-fit: cover;
+    box-shadow: 0px 4px 4px #00757E;
+}
+
+.section3-title {
+    position: relative;
+    font-size: 5rem;
+    color: white;
+    left: 100rem;
+    bottom: 83rem;
+}
+
+.section3-subtitle {
+    position: relative;
+    font-size: 2.7rem;
+    color: white;
+    left: 100rem;
+    bottom: 83rem;
+}
+
+.section3-p1 {
+    position: relative;
+    font-size: 2.2rem;
+    color: white;
+    left: 45rem;
+    bottom: 80rem;
+}
+
+.section4-title {
+    display: grid;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    color: #40B121;
+    bottom: 50rem;
+}
+
+.section4-p-1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    position: relative;
+    color: #000;
+    bottom: 49rem;
+}
